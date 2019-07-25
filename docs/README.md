@@ -1,8 +1,8 @@
 ---
 home: true
-heroImage: 
+heroImage:
 actionText: Get Started →
-actionLink: /getting-started/
+actionLink: ../docs/getting-started/
 footer: Copyright © 2018-present Crypto.com
 ---
 
