@@ -2,7 +2,7 @@
 home: true
 heroImage:
 actionText: Get Started →
-actionLink: ../docs/getting-started/
+actionLink: ../getting-started/
 footer: Copyright © 2018-present Crypto.com
 ---
 
