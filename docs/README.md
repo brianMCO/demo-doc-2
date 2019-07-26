@@ -2,7 +2,7 @@
 home: true
 heroImage: CRO_icon.png
 actionText: Get Started →
-actionLink: ../getting-started/
+actionLink: ../getting-started/latest/
 footer: Copyright © 2018-present Crypto.com
 ---
 

@@ -4,11 +4,33 @@ module.exports = {
   themeConfig: {
     nav: [
       {text:'Home', link: '/'},
-      {text:'Getting Started',link:'/getting-started/'},
-      {text:'Crypto.com',link:'https://crypto.com'},
+      {text:'Getting Started',link:'/getting-started/latest/'},
+      {text:'Client RPC',link:'https://github.com/crypto-com/chain/tree/master/client-rpc'},
+      {
+        text:'Version',
+        items:[
+          {text:'Latest',link:'/getting-started/latest/'},
+          {text:'v1.0.0',link:'/getting-started/v1.0.0/'}
+        ]
+      }
     ],
     sidebar: {
-      '/getting-started/': [
+      '/getting-started/latest/': [
+        '',
+        'consensus',
+        'genesis',
+        'transaction-accounting-model',
+        'transaction',
+        'serialization',
+        'signature-schemes',
+        'transaction-flow',
+        'enclave-architecture',
+        'transaction-privacy',
+        'staking',
+        'notes-on-performance',
+        'threat-model'
+      ],
+      '/getting-started/v1.0.0/': [
         '',
         'consensus',
         'genesis',
