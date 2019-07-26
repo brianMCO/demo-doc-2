@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage:
+heroImage: /demo-doc-2/CRO_icon.png
 actionText: Get Started →
 actionLink: ../getting-started/
 footer: Copyright © 2018-present Crypto.com
