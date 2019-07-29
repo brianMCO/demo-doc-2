@@ -5,5 +5,9 @@
   "license": "MIT",
   "scripts": {
     "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "vuepress": "^1.0.0-alpha.44",
+    "vuepress-plugin-export": "ulivz/vuepress-plugin-export#master"
   }
 }

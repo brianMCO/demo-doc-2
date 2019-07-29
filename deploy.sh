@@ -6,6 +6,11 @@ set -e
 # build
 npm run docs:build
 
+# build full doc pdf
+cd docs/
+vuepress export
+mv 'Crypto.com Chain.pdf' ./.vuepress/dist/Crypto.com_Chain.pdf
+
 # navigate into the build output directory
 cd docs/.vuepress/dist
 
