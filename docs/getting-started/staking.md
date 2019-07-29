@@ -91,7 +91,7 @@ pub struct RewardsPool {
 
 The initial prototype will have a `DAILY_DISTRIBUTION_AMOUNT` network parameter; later on, it should be a function that takes a target emission rate, total remaining amount etc. as parameters.
 
-## Distribution
+### Distribution
 
 Each validator will maintain this structures (perhaps persistent / on-disk): `day_claim_council_node: Map<CouncilNode, BlockCount>`
 
@@ -149,7 +149,7 @@ pub struct SlashingPeriod {
 }
 ```
 
-## Unjail
+### Unjail
 
 When the previous violator wishes to resume the functionality, the node operator can send a signed `UnjailTx`. Its validation logic is the following:
 
@@ -176,9 +176,9 @@ END/COMMIT_BLOCK_STATE_UPDATE(deduct(account); account.jailed = None)
 
 TODO: auto-unjailing?
 
-## Tracking
+### Tracking
 
-### Validators / Council Nodes
+#### Validators / Council Nodes
 
 Each BeginBlock contains two fields that will determine penalties:
 

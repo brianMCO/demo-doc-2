@@ -6,7 +6,7 @@ module.exports = {
       {text:'Home', link: '/'},
       {text:'Getting Started',link:'/getting-started/'},
       {text:'Client RPC',link:'https://github.com/crypto-com/chain/tree/master/client-rpc'},
-      {text:'Download',link:'/Crypto.com_Chain.pdf'}
+      {text:'Download',link:'https://brianmco.github.io/demo-doc-2/Crypto.com_Chain.pdf'}
     ],
     sidebar: {
       '/getting-started/': [
@@ -17,10 +17,11 @@ module.exports = {
         'transaction',
         'serialization',
         'signature-schemes',
-        'transaction-flow',
+        'client-flow',
         'enclave-architecture',
         'transaction-privacy',
         'staking',
+        'notes-on-production-deployment',
         'notes-on-performance',
         'threat-model'
       ]
@@ -46,11 +47,9 @@ module.exports = {
           'Transaction Privacy': 10,
           'Staking': 11,
           'Notes on Performance': 12,
-          'Threat Model': 13
+          'Notes on Production Deployment': 13,
+          'Threat Model': 14
         };
-        console.log("a", a["title"])
-        console.log("b", b["title"])
-        console.log("---")
         return (ordering[a["title"]] - ordering[b["title"]]);
       }
     }

@@ -193,6 +193,6 @@ cargo run –bin client-rpc – –chain-id AB –port 3000 –storage-dir ./my 
 curl 'http://localhost:26657/abci_query?path=0x6163636f756e74&data=0x0db221c4f57d5d38b968139c06e9132aaf84e8df'
 ```
 
-### Other information
+## Other information
 
 [github.com/crypto-com/chain/blob/master/README.md](https://github.com/crypto-com/chain/blob/master/README.md)
