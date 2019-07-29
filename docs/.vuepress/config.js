@@ -5,7 +5,8 @@ module.exports = {
     nav: [
       {text:'Home', link: '/'},
       {text:'Getting Started',link:'/getting-started/'},
-      {text:'Client RPC',link:'https://github.com/crypto-com/chain/tree/master/client-rpc'}
+      {text:'Client RPC',link:'https://github.com/crypto-com/chain/tree/master/client-rpc'},
+      {text:'Download',link:'/Crypto.com_Chain.pdf'}
     ],
     sidebar: {
       '/getting-started/': [

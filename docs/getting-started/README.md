@@ -195,4 +195,4 @@ curl 'http://localhost:26657/abci_query?path=0x6163636f756e74&data=0x0db221c4f57
 
 ### Other information
 
-[github.com/crypto-com/chain/blob/master/README.md](github.com/crypto-com/chain/blob/master/README.md)
+[github.com/crypto-com/chain/blob/master/README.md](https://github.com/crypto-com/chain/blob/master/README.md)
